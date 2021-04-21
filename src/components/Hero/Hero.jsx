@@ -39,6 +39,11 @@ const Header = () => {
                 {cta || 'Know more'}
               </Link>
             </span>
+            <span className="cta-btn cta-btn--hero" style={{ marginLeft: '20px' }}>
+              <Link to="projects" smooth duration={1000}>
+                Projects
+              </Link>
+            </span>
           </p>
         </Fade>
       </Container>
