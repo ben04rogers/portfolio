@@ -11,14 +11,14 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Ryan Neville',
-  subtitle: `I'm a web developer from Bristol, UK`,
+  subtitle: `Web Developer`,
   cta: 'Find out more',
 };
 
 // ABOUT DATA
 export const aboutData = {
   img: 'RGN-photo.jpg',
-  paragraphOne: `I'm Ryan, a web developer from Thornbury. I'm passionate about tech and I love creating innovative and performant applications that make people's lives easier. I find learning new technologies and creating solutions to difficult problems massively rewarding.`,
+  paragraphOne: `I'm Ryan, a web developer from Thornbury (a small town near Bristol). I'm passionate about tech and I love creating innovative and performant applications that make people's lives easier. I find learning new technologies and creating solutions to difficult problems massively rewarding.`,
   paragraphTwo: `The projects I'm working on right now live on the client side and are mostly React led. My evenings at the moment are spent learning node.js and Express. My long term goal is to become an effective full stack developer, able to efficiently turn great ideas into working products.`,
   paragraphThree: `In my spare time I play a lot of guitar, make electronic music with my modular synth, play rugby and love watching NFL games.`,
   resume:
@@ -29,30 +29,28 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'AquaBathrooms.png',
     title: 'Company Website',
-    info:
-      'A website for a local company, constructed with create-react-app - featuring Google Maps API custom styled components from the Materialize library.',
-    info2: 'React, Materialize, SASS, Google Maps API',
+    info: `A website I've built for a local bathroom firm, constructed with create-react-app - featuring Google Maps API, Hooks, Router and custom styled components from the Materialize library.`,
+    info2: 'React, Material UI, SASS, Google Maps API',
     url: '',
     repo: 'https://github.com/rgneville/material-ui-site', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
-    title: 'CV Generator',
+    img: 'CVCreator.png',
+    title: 'CV Creator',
     info:
-      'A web application which generates and prints a CV using user entered data, using controlled forms and a global state management solution.',
+      'A web application which generates and prints a CV using user entered data. Features controlled forms, Hooks and is served by a Context API global state management solution. Uses JavaScript to print off a copy of the CV information.',
     info2: 'React, Context API, SASS',
     url: '',
     repo: 'https://github.com/rgneville/cv-app', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
-    img: 'project.jpg',
+    img: 'WeatherNow.png',
     title: 'WeatherNow',
-    info:
-      'A web application which dynamically displays the present weather at a list of locations, from an array kept in local storage.',
+    info: `A web application which dynamically displays the present weather at the user's favourite locations around the globe, from an array of locations which is persisted in local storage.`,
     info2: 'JavaScript, OpenWeatherAPI, SASS',
     url: 'https://rgneville.github.io/weather-app/',
     repo: 'https://github.com/rgneville/weather-app', // if no repo, the button will not show up
