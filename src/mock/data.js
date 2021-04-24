@@ -33,7 +33,7 @@ export const projectsData = [
     title: 'Company Website',
     info: `A website I've built for a local bathroom firm, constructed with create-react-app - featuring Google Maps API, Hooks, Router and custom styled components from the Materialize library.`,
     info2: 'React, Material UI, SASS, Google Maps API',
-    url: '',
+    url: 'https://rgneville.github.io/material-ui-site/#/',
     repo: 'https://github.com/rgneville/material-ui-site', // if no repo, the button will not show up
   },
   {
@@ -41,9 +41,9 @@ export const projectsData = [
     img: 'CVCreator.png',
     title: 'CV Creator',
     info:
-      'A web application which generates and prints a CV using user entered data. Features controlled forms, Hooks and is served by a Context API global state management solution. Uses JavaScript to print off a copy of the CV information.',
+      'A vanilla JavaScript application which generates and prints a CV using user entered data. Features controlled forms, Hooks and is served by a Context API global state management solution. Uses JavaScript to print off a copy of the CV information.',
     info2: 'React, Context API, SASS',
-    url: '',
+    url: 'https://rgneville.github.io/cv-app/',
     repo: 'https://github.com/rgneville/cv-app', // if no repo, the button will not show up
   },
   {

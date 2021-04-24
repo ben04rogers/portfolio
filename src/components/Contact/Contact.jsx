@@ -1,8 +1,11 @@
 import React, { useContext } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container } from 'react-bootstrap';
+
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
+import phoneIcon from '../../images/phone-call.svg';
+import emailIcon from '../../images/email.svg';
 
 const Contact = () => {
   const { contact } = useContext(PortfolioContext);
@@ -17,8 +20,14 @@ const Contact = () => {
             <p className="contact-wrapper__text">
               {cta || 'Would you like to work with me? Awesome!'}
             </p>
-            <p className="contact-wrapper__text">07854 535947</p>
-            <p className="contact-wrapper__text">rgneville91@gmail.com</p>
+            <div className="contact-wrapper__text">
+              <img src={phoneIcon} alt="Phone icon" style={{ height: '20px', fill: 'white' }} />
+              <p className="contact-wrapper__text">07854 535947</p>
+            </div>
+            <div className="contact-wrapper__text">
+              <img src={emailIcon} alt="Email icon" style={{ height: '20px', fill: 'white' }} />
+              <p className="contact-wrapper__text">rgneville91@gmail.com</p>
+            </div>
             <a
               target="_blank"
               rel="noopener noreferrer"
