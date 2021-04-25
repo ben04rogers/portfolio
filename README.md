@@ -4,7 +4,7 @@ A website created to host and display the projects I've made to date. Made using
 
 ## How To Use
 
-rom your command line, first clone Simplefolio:
+From your command line, first clone this repo:
 
 ```bash
 # Clone this repository
