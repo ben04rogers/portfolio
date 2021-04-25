@@ -1,6 +1,6 @@
 # Portfolio Project
 
-A website created to host and display the projects I've made to date. Made using a [Gatsby starter](https://www.gatsbyjs.com/starters/cobidev/gatsby-simplefolio/) and heavily updated/personalised to fit my needs and help promote me as a developer.
+A website created to host and display the projects I've made to date. Made using a [Gatsby starter](https://www.gatsbyjs.com/starters/cobidev/gatsby-simplefolio/) and heavily updated/personalised to fit my needs and help promote me as a developer. Not my first Gatsby project, really enjoy working with Gatsby but it does create quite a bloated list of dependencies. There's a bit of a trade off between package size and performance.
 
 ## How To Use
 
@@ -8,10 +8,10 @@ rom your command line, first clone Simplefolio:
 
 ```bash
 # Clone this repository
-$ git clone https://github.com/cobidev/gatsby-simplefolio
+$ git clone https://github.com/rgneville/portfolio
 
 # Go into the repository
-$ cd gatsby-simplefolio
+$ cd portfolio
 
 # Remove current origin repository
 $ git remote remove origin
@@ -26,7 +26,7 @@ Using NPM:
 $ npm install
 
 # Start development server
-$ npm run develop
+$ gatsby develop
 ```
 
 Using Yarn:
